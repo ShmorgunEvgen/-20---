@@ -1,0 +1,45 @@
+html, body{
+	width:100%;
+	height:100%;
+	margin: 0;
+}
+header{
+	width:100%;
+	height:20%;
+}
+.container{
+	max-width: 680px;
+	padding: 1px;
+	padding-left:15px;
+	padding-right:15px;
+	margin: 0 auto;
+	position:relative;
+}
+ul li{
+	display:inline-block;
+	position:relative;
+}
+main .container{
+	display:inline-block;
+	background-image:url("billboard.jpg");
+	height:20%;
+	width:100%;
+}
+.services{
+	text-align:center;
+	display:inline-block;
+	position:relative;
+	margin-left:680px;
+}
+.menu{
+	margin:10px;
+	margin-left:100px;
+}
+.a{
+	width:100px;
+	height:100px;
+	background:red;
+	border-radius:30px;
+	text-align:center;
+	position:relative;
+}
